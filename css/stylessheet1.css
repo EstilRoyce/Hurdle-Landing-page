@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("/Users/HP/Desktop/hurdle/images/bg-desktop.svg");
+    background-color:  hsl(257, 40%, 49%);
+ font-family: "Poppins", sans-serif;
+ width: 80%;
+ height: 100vh;
+ margin:0;
+ margin-left: 2%;
+
+
+}
+h2{
+    font-size: 30px;
+}
+p{
+    font-size: 16px;
+}
+h2,p{
+    font-family: "Open Sans",sans-serif;
+    color: white;
+    font-weight: 400;
+}
+.logo{
+    margin: 0;
+    margin-bottom:3%;
+    margin-top: 2%;
+}
+.container{
+    display: flex;
+    flex-direction:row;
+     
+  }
+  .sentence{
+    position: absolute;
+  right: 3%;
+top:30%;
+  }
+  .reg{
+    height: 30px;
+    width:150px;
+    background-color: white;
+    position: relative;
+    border-radius: 25px;
+    box-shadow: 2px 2px black;
+  }
+  
+  .reg:hover{
+    background-color:hsl(300, 69%, 71%) ;
+  }
+  .reg a{
+    position: absolute;
+    left: 40px;
+    top: 5px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .reg a:hover{
+    color:white;
+  }
+.icon{
+  
+text-align: right;
+margin-bottom: 40px;
+margin-right:50px;
+
+
+}
+.icon i{
+    
+    color:white;
+    border:1px solid white;
+    border-radius: 70%;
+    padding: 10px;
+   
+}
+.icon i:hover{
+    border:1px solid hsl(300, 69%, 71%) ;
+}
+
+.attribution { font-size: 12px;
+    text-align: center;   
+color: white; 
+text-decoration: none;
+}
+
+.attribution a { color:white;
+   text-decoration: none; 
+   text-align: center;
+}
+@media screen and (max-width:600px)
+{
+    body{background-image:url("/Users/HP/Desktop/hurdle/images/bg-mobile.svg");
+        background-color:  hsl(257, 40%, 49%);
+        font-family: "Poppins", sans-serif;
+        width: 80%;'
+        /* height: 100vh; */
+        margin:0;
+        margin-left: 2%;
+    }
+    .container{
+        display: flex;
+        flex-direction:column;
+      }
+
+    
+    h2{
+        font-size: 45px;
+    }
+    p{
+        font-size: 25px;
+    }
+    h2,p{
+        font-family: "Open Sans",sans-serif;
+        color: white;
+        font-weight: 400;
+    }
+    .logo{
+        margin: 0;
+        margin-bottom:10%;
+        margin-top: 2%;
+    }
+  
+    .container{
+        display: flex;
+        flex-direction:column;
+         
+      }
+      .sentence{
+        position: absolute;
+      
+    top:50%;
+    padding-top: 50%;
+    padding-left: 50%;
+      }
+      .reg{
+        height: 45px;
+        width:200px;
+        background-color: white;
+        position: relative;
+        border-radius: 25px;
+        box-shadow: 2px 2px black;
+      }
+      
+      .reg:hover{
+        background-color:hsl(300, 69%, 71%) ;
+      }
+      .reg a{
+        position: absolute;
+        left: 70px;
+        top: 10px;
+        text-decoration: none;
+        font-size: 20px;
+      }
+      .reg a:hover{
+        color:white;
+      }
+      .icon{
+  
+        text-align: right;
+        margin-bottom: 40px;
+        margin-right:50px;
+        
+        
+        }
+        .icon i{
+            
+            color:white;
+            border:1px solid white;
+            border-radius: 70%;
+            padding: 10px;
+           
+        }
+        .icon i:hover{
+            border:1px solid hsl(300, 69%, 71%) ;
+        }
+    
+    .attribution { font-size: 12px;
+        text-align: center;   
+    color: white; 
+    text-decoration: none;
+   
+    
+    }
+    
+    .attribution a { color:white;
+       text-decoration: none; 
+       text-align: center;
+    }
+  
+} 
