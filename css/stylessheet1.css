@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: url("/Users/HP/Desktop/hurdle/images/bg-desktop.svg");
+    background-image: url("/Hurdle-Landing-page/images/bg-desktop.svg");
     background-color:  hsl(257, 40%, 49%);
  font-family: "Poppins", sans-serif;
  width: 80%;
@@ -95,7 +95,7 @@ text-decoration: none;
 }
 @media screen and (max-width:600px)
 {
-    body{background-image:url("/Users/HP/Desktop/hurdle/images/bg-mobile.svg");
+    body{background-image:url("/Hurdle-Landing-page/images/bg-mobile.svg");
         background-color:  hsl(257, 40%, 49%);
         font-family: "Poppins", sans-serif;
         width: 80%;'
@@ -134,7 +134,7 @@ text-decoration: none;
       .sentence{
         position: absolute;
       
-    top:50%;
+    top:70%;
     padding-top: 50%;
     padding-left: 50%;
       }
