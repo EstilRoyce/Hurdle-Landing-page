@@ -5,21 +5,24 @@
 }
 
 body{
-    background-image: url("/Hurdle-Landing-page/images/bg-desktop.svg");
+    background-image: url("../images/bg-desktop.svg");
     background-color:  hsl(257, 40%, 49%);
- font-family: "Poppins", sans-serif;
- width: 80%;
+ font-family: "Open Sans", sans-serif;
+ width:100%;
  height: 100vh;
- margin:0;
- margin-left: 2%;
+
 
 
 }
 h2{
     font-size: 30px;
+    margin-bottom: 10px;
+    line-height: 1.5;
 }
 p{
     font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 1.5;
 }
 h2,p{
     font-family: "Open Sans",sans-serif;
@@ -31,16 +34,14 @@ h2,p{
     margin-bottom:3%;
     margin-top: 2%;
 }
+
+
 .container{
     display: flex;
     flex-direction:row;
-     
+     column-gap: 40px;
   }
-  .sentence{
-    position: absolute;
-  right: 3%;
-top:30%;
-  }
+
   .reg{
     height: 30px;
     width:150px;
@@ -94,103 +95,105 @@ text-decoration: none;
    text-align: center;
 }
 @media screen and (max-width:600px)
-{
-    body{background-image:url("/Hurdle-Landing-page/images/bg-mobile.svg");
+{body{background-image:url(".../images/bg-mobile.svg");
         background-color:  hsl(257, 40%, 49%);
-        font-family: "Poppins", sans-serif;
-        width: 80%;'
-        /* height: 100vh; */
-        margin:0;
-        margin-left: 2%;
+        width:100%;
+        height: 100vh;
+       
     }
-    .container{
-        display: flex;
-        flex-direction:column;
-      }
+       
 
-    
     h2{
-        font-size: 45px;
-    }
-    p{
-        font-size: 25px;
-    }
-    h2,p{
-        font-family: "Open Sans",sans-serif;
-        color: white;
-        font-weight: 400;
-    }
-    .logo{
-        margin: 0;
-        margin-bottom:10%;
-        margin-top: 2%;
-    }
-  
-    .container{
-        display: flex;
-        flex-direction:column;
+           font-size: 30px;
+           margin-bottom: 10px;
+           line-height: 1.5;
+       }
+       p{
+           font-size: 16px;
+           margin-bottom: 10px;
+           line-height: 1.5;
+       }
+       h2,p{
+           font-family: "Open Sans",sans-serif;
+           color: white;
+           font-weight: 400;
+       }
+       .logo{
+           margin: 0;
+           margin-bottom:3%;
+           margin-top: 2%;
+           width:10px;
+       }
+     .illustration{
+      width:30%
+     }
+
+       .container{
+           display: flex;
+           flex-direction:column;
+            column-gap: 40px;
+         }
+       .sentence{
+        padding-left: 40%;
+        padding-bottom: 20%;
+       }
+
+
+         .reg{
+           height: 30px;
+           width:150px;
+           background-color: white;
+           position: relative;
+           border-radius: 25px;
+           box-shadow: 2px 2px black;
+           position: absolute;
+         right:100px;
+
+         }
          
-      }
-      .sentence{
-        position: absolute;
+         .reg:hover{
+           background-color:hsl(300, 69%, 71%) ;
+         }
+         .reg a{
+           position: absolute;
+         left:40px;
+           top: 5px;
+           text-decoration: none;
+           font-size: 20px;
+         }
+         .reg a:hover{
+           color:white;
+         }
+       .icon{
+         
       
-    top:70%;
-    padding-top: 50%;
-    padding-left: 50%;
-      }
-      .reg{
-        height: 45px;
-        width:200px;
-        background-color: white;
-        position: relative;
-        border-radius: 25px;
-        box-shadow: 2px 2px black;
-      }
-      
-      .reg:hover{
-        background-color:hsl(300, 69%, 71%) ;
-      }
-      .reg a{
-        position: absolute;
-        left: 70px;
-        top: 10px;
-        text-decoration: none;
-        font-size: 20px;
-      }
-      .reg a:hover{
-        color:white;
-      }
-      .icon{
-  
-        text-align: right;
-        margin-bottom: 40px;
-        margin-right:50px;
-        
-        
-        }
-        .icon i{
-            
-            color:white;
-            border:1px solid white;
-            border-radius: 70%;
-            padding: 10px;
+       margin-bottom: 10px;
+       margin-left:40px;
+       padding-bottom: 10%;
+       padding-right: 75px;
+       
+       
+       }
+       .icon i{
            
-        }
-        .icon i:hover{
-            border:1px solid hsl(300, 69%, 71%) ;
-        }
-    
-    .attribution { font-size: 12px;
-        text-align: center;   
-    color: white; 
-    text-decoration: none;
-   
-    
-    }
-    
-    .attribution a { color:white;
-       text-decoration: none; 
-       text-align: center;
-    }
-  
-} 
+           color:white;
+           border:1px solid white;
+           border-radius: 70%;
+           padding-left: 30px;
+          
+       }
+       .icon i:hover{
+           border:1px solid hsl(300, 69%, 71%) ;
+       }
+       
+       .attribution { font-size: 12px;
+           text-align: center;   
+       color: white; 
+       text-decoration: none;
+       }
+       
+       .attribution a { color:white;
+          text-decoration: none; 
+          text-align: center;
+       }
+      }
