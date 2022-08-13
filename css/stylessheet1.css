@@ -133,10 +133,10 @@ text-decoration: none;
            flex-direction:column;
             column-gap: 40px;
          }
-       .sentence{
+       /* .sentence{
         padding-left: 40%;
         padding-bottom: 20%;
-       }
+       } */
 
 
          .reg{
@@ -146,8 +146,8 @@ text-decoration: none;
            position: relative;
            border-radius: 25px;
            box-shadow: 2px 2px black;
-           position: absolute;
-         right:100px;
+           /* position: absolute;
+         right:100px; */
 
          }
          
@@ -170,7 +170,7 @@ text-decoration: none;
        margin-bottom: 10px;
        margin-left:40px;
        padding-bottom: 10%;
-       padding-right: 75px;
+       padding-right: 70px;
        
        
        }
@@ -179,7 +179,7 @@ text-decoration: none;
            color:white;
            border:1px solid white;
            border-radius: 70%;
-           padding-left: 30px;
+           padding: 10px;
           
        }
        .icon i:hover{
