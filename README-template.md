@@ -40,9 +40,11 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 **Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
+https://gitHub.com/EstilRoyce/Hurdle-Landing-page
+https://heroic-dasik-2b1769.netlify.app/
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://idyllic-marigold-f00edc.netlify.app/)
+- Solution URL: [Add solution URL here](https://gitHub.com/EstilRoyce/Hurdle-Landing-page)
+- Live Site URL: [Add live site URL here](https://heroic-dasik-2b1769.netlify.app/)
 
 ## My process
 I was able to export my files and open with VScode, created my HTML file ,Folder for CSS,images and I also followed the instructions on how to go about the project to get the design
@@ -69,9 +71,9 @@ Learning more on the CSS properties
 [Frontend Mentor]
 ## Author: Okolie Uche
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@estil-royce](https://www.twitte∆∆∆r.com/yourusername)
+- Website -[Netlify](https://www.your-site.com)
+- Frontend Mentor - [@estilroyce](https://www.frontendmentor.io/profile/yourusername)
+- Twitter - [@estil-royce](https://www.twitte∆∆∆r.com/estil-royce)
 
 
 ## Acknowledgments
