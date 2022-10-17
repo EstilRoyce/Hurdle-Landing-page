@@ -71,9 +71,9 @@ Learning more on the CSS properties
 [Frontend Mentor]
 ## Author: Okeniyi Esther
 
-- Website -[Netlify](https://www.your-site.com)
+- Website -[Netlify]([https://heroic-dasik-2b1769.netlify.app/]
 - Frontend Mentor - [@estilroyce](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@estil-royce](https://www.twitte∆∆∆r.com/estil-royce)
+- Twitter - [@estil-royce](https://www.twitter.com/estil-royce)
 
 
 ## Acknowledgments
